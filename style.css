@@ -14,7 +14,6 @@
     height: 36px;
     margin: 20px 0px;
     font-size: 24px;
-    position: relative;
 }
 
 .inputField::placeholder{
@@ -27,12 +26,11 @@
     background-color: white;
     font-size: 12px;
     border: 1px solid red;
-    position: absolute;
     top: 110px;
-    left: 270px;
+    margin: auto;
     padding: 8px;
     border-radius: 5px;
-    display: none;
+    /* display: none; */
 }
 .start {
     background-color: aqua;
