@@ -13,14 +13,27 @@
     width: 250px;
     height: 36px;
     margin: 20px 0px;
+    font-size: 24px;
+    position: relative;
 }
 
 .inputField::placeholder{
     font-size: 24px;
-    
-    
 }
 
+.error{
+    width: 300px;
+    height: 36px;
+    background-color: white;
+    font-size: 12px;
+    border: 1px solid red;
+    position: absolute;
+    top: 110px;
+    left: 270px;
+    padding: 8px;
+    border-radius: 5px;
+    display: none;
+}
 .start {
     background-color: aqua;
     padding: 10px 15px;
