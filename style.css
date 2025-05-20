@@ -30,7 +30,7 @@
     margin: auto;
     padding: 8px;
     border-radius: 5px;
-    /* display: none; */
+    display: none;
 }
 .start {
     background-color: aqua;
