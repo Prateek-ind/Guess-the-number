@@ -1,0 +1,35 @@
+# Guess Number Game
+
+A simple number guessing game built with vanilla JavaScript, HTML, and CSS.
+
+## About
+
+This is a small interactive game where the player tries to guess a randomly generated number between 1 and 100. The player gets 10 attempts, with hints like "Too low!", "Too high!", and "Very close!" to guide their guesses.
+
+## Features
+
+- Generates a random number between 1 and 100 on game start.
+- User input validation with error handling.
+- Feedback hints based on the guess.
+- Tracks and displays all guesses.
+- Limits the number of guesses to 10.
+- Clear UI to start a new game after finishing.
+
+## How to Play
+
+1. Click the **Start** button to begin a new game.
+2. Enter a guess between 1 and 100.
+3. Press **Submit** or hit **Enter**.
+4. The game will give you feedback:
+   - 🎉 Correct guess!
+   - Too low or too high.
+   - Very close if within 5 of the number.
+5. You have 10 attempts to guess the correct number.
+6. After 10 tries or a correct guess, you can start a new game.
+
+## Usage
+
+Clone this repository and open the `index.html` file in your browser.
+
+```bash
+git clone https://github.com/Prateek-ind/guess-number-game.git
