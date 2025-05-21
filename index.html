@@ -7,15 +7,23 @@
     <script src="script.js" defer></script>
     <title>Guess the number</title>
 </head>
-<body><div class="wrapper">
+<body><header><div class="heading">Guess the number</div></header>
+<div class="wrapper">
     <p>Enter a guess between 0 to 100</p>
-    <input class="inputField" type="number" min="0" max="100" placeholder="Enter a number">
-    <div class="error">⚠️ Please enter a valid number between 1 and 100.</div>
-    <div class="btn"></div><button disabled class="submit" type="submit">Submit</button>
-    <button class="start">Start game</button>
+    <form action="#" ><input 
+    required 
+    class="inputField" 
+    type="number" 
+    min="1" max="100" 
+    placeholder="Enter a number">
+    <div class="btn">
+    <button disabled class="submit" type="submit">Submit</button>
+    <button type="button" class="start">Start game</button>
     </div>
+    </form>
+    
     <p class="hint"></p>
     <p class="guesses"></p>
-    </div>
+</div>
 </body>
 </html>
